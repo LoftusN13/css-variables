@@ -1,7 +1,14 @@
+body {
+    background-color: #2B3A67;
+    color: #fff;
+    text-align: center;
+}
+
 /*-------------------------Header----------------------- */ 
 .navbar {
     padding: .5rem;
-    border-bottom: .15rem #000 solid;
+    border-bottom: .15rem #B3FFB3 solid;
+    background-color: #A6D3A0;
 }
 
 .navbar-toggler {
@@ -12,9 +19,14 @@
     padding: .5rem;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-    background-color: rgba(0,0,0,0.1);
-}
 .navbar-light .navbar-nav .nav-item .active {
     font-weight: 600;    
+}
+
+h1 {
+    padding-top: 6rem;
+}
+
+.js {
+    color: #B3FFB3;
 }
