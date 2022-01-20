@@ -1,0 +1,20 @@
+/*-------------------------Header----------------------- */ 
+.navbar {
+    padding: .5rem;
+    border-bottom: .15rem #000 solid;
+}
+
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-collapse {
+    padding: .5rem;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    background-color: rgba(0,0,0,0.1);
+}
+.navbar-light .navbar-nav .nav-item .active {
+    font-weight: 600;    
+}
