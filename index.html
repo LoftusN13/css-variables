@@ -34,9 +34,18 @@
     <div class="container-fluid">
         <h1>Update CSS Variables with <span class="js">JS</span></h1>
 
-        <div class="controls">
-            
+        <div class="controls pb-3">
+            <label for="spacing">Spacing:</label>
+            <input type="range" name="spacing" id="spacing" min="10" max="200" value="10" data-sizing="px">
+
+            <label for="blur">Blur:</label>
+            <input type="range" name="blur" id="blur" min="0" max="25" value="10" data-sizing="px">
+
+            <label for="base">Base Colour:</label>
+            <input type="color" name="base" value="#A6D3A0">
         </div>
+
+        <img src="assets/images/city.jpeg" alt="Toronto skline at sunset">
     </div>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" defer></script>
