@@ -1,3 +1,4 @@
+// css variables script
 const inputs = document.querySelectorAll('.controls input');
 
 function handleUpdate() {
@@ -7,3 +8,12 @@ function handleUpdate() {
 
 inputs.forEach(input => input.addEventListener('change', handleUpdate));
 inputs.forEach(input => input.addEventListener('mousemove', handleUpdate));
+
+// flex panels script
+const panels = document.querySelectorAll('.panel');
+
+function toggleOpen() {
+    this.classList.toggle('open');
+}
+
+panels.forEach(panel => panel.addEventListener('click', toggleOpen));
