@@ -29,18 +29,14 @@ h1 {
     padding-top: 6rem;
 }
 
-.js {
-    color: #B3FFB3;
-}
-
-/*-------------------------Variables----------------------- */ 
+/*-------------------------CSS Variables----------------------- */ 
 :root {
     --base: #B3FFB3;
     --spacing: 10px;
     --blur: 10px;
 }
 
-img {
+.city_img {
     width: 70%;
     height: auto;
     padding: var(--spacing);
@@ -50,4 +46,11 @@ img {
 
 .hl {
     color: var(--base);
+}
+
+/*-------------------------Flex Panels----------------------- */
+.panels {
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
 }
