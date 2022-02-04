@@ -130,6 +130,17 @@ html {
     font-size: 3rem;
 }
 
+/*-------------------------City Search----------------------- */ 
+.search-city i {
+    font-size: 1.3rem;
+    padding: .3rem;
+}
+
+.search-city input {
+    padding: .5rem;
+    font-size: 1.2rem;
+}
+
 /*-------------------------Media Queries----------------------- */
 @media only screen and (min-width: 576px) {
     .panels {
