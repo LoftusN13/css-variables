@@ -168,6 +168,13 @@ span.population {
     font-size: 15px;
 }
 
+/*-------------------------Canvas----------------------- */ 
+canvas {
+    background-color: #fff;
+    width: 800px;
+    height: 800px;
+}
+
 /*-------------------------Media Queries----------------------- */
 @media only screen and (min-width: 576px) {
     .panels {
