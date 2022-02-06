@@ -171,8 +171,6 @@ span.population {
 /*-------------------------Canvas----------------------- */ 
 canvas {
     background-color: #fff;
-    width: 800px;
-    height: 800px;
 }
 
 /*-------------------------Media Queries----------------------- */
