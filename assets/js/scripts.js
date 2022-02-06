@@ -40,6 +40,7 @@ let isDrawing = false;
 let lastX = 0;
 let lastY = 0;
 let hue = 0;
+let direction = true;
 
 function draw(e) {
     if(!isDrawing) return; //stop the funciton from running when not moused down
@@ -52,7 +53,18 @@ function draw(e) {
     ctx.lineTo(e.offsetX, e.offsetY);
     ctx.stroke();
     [lastX, lastY] = [e.offsetX, e.offsetY];
+
     hue++;
+    // if greatear than 100 or less than 1, flip direction
+    if (ctx.lineWidth >= 100 || ctx.lineWidth <= 1) {
+        direction = !direction;
+    }
+    // depending on direction we either increase or reduce line width
+    if(direction) {
+        ctx.lineWidth++;
+    } else {
+        ctx.lineWidth--;
+    }
 }
 
 canvas.addEventListener('mousedown', (e) => {
