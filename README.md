@@ -1,10 +1,14 @@
-# <p align="center">**CSS Variables with JS**</p>
+# <p align="center">**JS Challenges**</p>
 
 This project is build as part of #JavaScript30; a 30 Day Vanilla JS Coding Challenge. 
 
 Home page features an image which uses CSS variables and JS in order to manipulate the spacing, blur and border-colour of the image.
 
 Flex Panels page uses CSS and JS to display a series of images and text with smooth transitions.
+
+City Search page uses JS to allow a user to search and filter for a city or state.
+
+Canvas page is an interactive canvas on which a user can draw onto by mouse movements.
 
 ### **Languages**
 - HTML
