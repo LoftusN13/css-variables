@@ -24,3 +24,15 @@ function toggleActive(e) {
 
 panels.forEach(panel => panel.addEventListener('click', toggleOpen));
 panels.forEach(panel => panel.addEventListener('transitionend', toggleActive));
+
+// canvas script
+const canvas = document.querySelector('#draw');
+const ctx = canvas.getContext('2d');
+
+ctx.strokeStyle = '#B3FFB3';
+ctx.lineJoin = 'round';
+ctx.lineCap = 'round';
+
+let isDrawing = false;
+let lastX = 0;
+let lastY = 0;
